@@ -11,7 +11,7 @@ namespace NZWeatherApp {
 
 
         public void ConnectToNet() {
-            //downloads the string and returns it  
+            //downloads the string and returns it    
             var webaddress = new Uri(URL);
             var webclient = new WebClient();
 
